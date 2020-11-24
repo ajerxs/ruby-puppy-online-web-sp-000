@@ -19,4 +19,10 @@ class Dog
     end
   end
 
+  def self.clear_all
+    @@all.each do |dog|
+      dog.clear
+    end
+  end
+
 end
